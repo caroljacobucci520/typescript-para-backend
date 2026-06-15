@@ -1,9 +1,13 @@
 {
   "compilerOptions": {
+    "target": "ES2022",
     "module": "commonjs",
+    "strict": true,
     "esModuleInterop": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "noEmitOnError": true,
+    "outDir": "./build",
+    "lib": ["ES2022", "DOM"]
   },
   "include": ["./src/**/*", "./server.ts"]
 }
